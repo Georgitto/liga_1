@@ -22,7 +22,7 @@ npm run lint
 
 ### Start the app
 ```
-json-server --watch db.json
+json-server --watch ./src/api/db.json
 npm run serve
 ```
 
