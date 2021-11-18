@@ -1,0 +1,457 @@
+{
+  "authors": [
+    {
+      "id": "2",
+      "birthDate": "1899-07-02",
+      "name": "Nabokov Vladimir",
+      "deathDate": "1997-04-22",
+      "works": [
+        "Poem 1",
+        "Poem 2",
+        "Poem 3",
+        "Poem 4",
+        "Poem 5"
+      ]
+    },
+    {
+      "name": "Bulgakov",
+      "birthDate": "2021-11-19",
+      "deathDate": "2021-12-29",
+      "id": "6",
+      "works": [
+        "Poem 1",
+        "Poem 2",
+        "Poem 3",
+        "Poem 4",
+        "Poem 5"
+      ]
+    },
+    {
+      "name": "Sergei Dovlatov",
+      "birthDate": "1941-09-03",
+      "deathDate": "1990-08-24",
+      "id": "7",
+      "works": [
+        "Poem 1",
+        "Poem 2",
+        "Poem 3",
+        "Poem 4",
+        "Poem 5"
+      ]
+    },
+    {
+      "name": "Boris Pasternak",
+      "birthDate": "1890-02-10",
+      "deathDate": "1960-05-30",
+      "id": "9",
+      "works": [
+        "Poem 1",
+        "Poem 2",
+        "Poem 3",
+        "Poem 4",
+        "Poem 5"
+      ]
+    },
+    {
+      "name": "Test",
+      "birthDate": "1884-02-01",
+      "deathDate": "1937-03-10",
+      "id": "10",
+      "works": [
+        "Poem 1",
+        "Poem 2",
+        "Poem 3",
+        "Poem 4",
+        "Poem 5"
+      ]
+    },
+    {
+      "name": "Test",
+      "birthDate": "1884-02-01",
+      "deathDate": "1937-03-10",
+      "id": "11",
+      "works": [
+        "Poem 1",
+        "Poem 2",
+        "Poem 3",
+        "Poem 4",
+        "Poem 5"
+      ]
+    },
+    {
+      "name": "Test",
+      "birthDate": "1884-02-01",
+      "deathDate": "1937-03-10",
+      "id": "12",
+      "works": [
+        "Poem 1",
+        "Poem 2",
+        "Poem 3",
+        "Poem 4",
+        "Poem 5"
+      ]
+    },
+    {
+      "birthDate": "1891-05-15",
+      "name": "Mikhail Bulgakov",
+      "deathDate": "1940-03-10",
+      "id": "pj5unRv"
+    },
+    {
+      "name": "Bulgakov",
+      "birthDate": "2021-11-19",
+      "deathDate": "2021-12-29",
+      "id": "ctqFOta"
+    }
+  ],
+  "documents": [
+    {
+      "id": "2",
+      "name": "Счет фактуры №3",
+      "owner": "ОАО 'Кленовый лист'",
+      "creationDate": "2021-06-24",
+      "direction": "out",
+      "type": "act",
+      "signatureDate": "2021-06-28",
+      "signatureOwner": "ОАО 'Кленовый лист'",
+      "totalSum": "300000"
+    },
+    {
+      "id": "3",
+      "name": "Счет фактуры №3",
+      "owner": "ОАО 'Кленовый лист'",
+      "creationDate": "2021-07-23",
+      "direction": "out",
+      "type": "invoice",
+      "signatureDate": "2021-07-27",
+      "signatureOwner": "ОАО 'Кленовый лист'",
+      "totalSum": "800000"
+    },
+    {
+      "id": "4",
+      "name": "Счет фактуры №4",
+      "owner": "ОАО 'Кленовый лист'",
+      "creationDate": "2021-08-23",
+      "direction": "in",
+      "type": "invoice",
+      "signatureDate": "2021-08-27",
+      "signatureOwner": "ОАО 'Кленовый лист'",
+      "totalSum": "200000"
+    },
+    {
+      "id": "5",
+      "name": "Счет фактуры №2",
+      "owner": "ОАО 'Кленовый лист'",
+      "creationDate": "2021-06-24",
+      "direction": "in",
+      "type": "invoice",
+      "signatureDate": "2021-06-28",
+      "signatureOwner": "ОАО 'Кленовый лист'",
+      "totalSum": "300000"
+    },
+    {
+      "id": "6",
+      "name": "Счет фактуры №3",
+      "owner": "ОАО 'Кленовый лист'",
+      "creationDate": "2021-07-23",
+      "direction": "out",
+      "type": "invoice",
+      "signatureDate": "2021-07-27",
+      "signatureOwner": "ОАО 'Кленовый лист'",
+      "totalSum": "800000"
+    },
+    {
+      "name": "test 4",
+      "owner": "test 1",
+      "creationDate": "2021-11-09",
+      "direction": "out",
+      "type": "act",
+      "signatureDate": "2021-11-25",
+      "signatureOwner": "test 1",
+      "totalSum": "1233456",
+      "id": "UrS6Lqj"
+    },
+    {
+      "name": "test 45",
+      "owner": "yhyhy",
+      "creationDate": "2021-11-02",
+      "direction": "out",
+      "type": "invoce",
+      "signatureDate": "2021-12-04",
+      "signatureOwner": "yhyhy",
+      "totalSum": "98765",
+      "id": "yPdq5tg"
+    }
+  ],
+  "history": [
+    {
+      "id": "2",
+      "changes": [
+        {
+          "updateDate": "2021-11-18",
+          "id": "2",
+          "name": "Счет фактуры №3",
+          "owner": "ОАО 'Кленовый лист'",
+          "creationDate": "2021-06-24",
+          "direction": "out",
+          "type": "act",
+          "signatureDate": "2021-06-28",
+          "signatureOwner": "ОАО 'Кленовый лист'",
+          "totalSum": "300000"
+        },
+        {
+          "updateDate": "2021-11-13",
+          "id": "2",
+          "name": "Счет фактуры №3",
+          "owner": "ОАО 'Кленовый лист'",
+          "creationDate": "2021-06-24",
+          "direction": "out",
+          "type": "invoice",
+          "signatureDate": "2021-06-28",
+          "signatureOwner": "ОАО 'Кленовый лист'",
+          "totalSum": "300000"
+        },
+        {
+          "updateDate": "2021-11-13",
+          "id": "2",
+          "name": "Счет фактуры №3",
+          "owner": "ОАО 'Кленовый лист'",
+          "creationDate": "2021-06-24",
+          "direction": "out",
+          "type": "invoice",
+          "signatureDate": "2021-06-28",
+          "signatureOwner": "ОАО 'Кленовый лист'",
+          "totalSum": "300000"
+        },
+        {
+          "updateDate": "2021-11-13",
+          "id": "2",
+          "name": "Счет фактуры №3",
+          "owner": "ОАО 'Кленовый лист'",
+          "creationDate": "2021-06-24",
+          "direction": "out",
+          "type": "invoice",
+          "signatureDate": "2021-06-28",
+          "signatureOwner": "ОАО 'Кленовый лист'",
+          "totalSum": "300000"
+        },
+        {
+          "updateDate": "2021-11-13",
+          "id": "2",
+          "name": "Счет фактуры №3",
+          "owner": "ОАО 'Кленовый лист'",
+          "creationDate": "2021-06-24",
+          "direction": "out",
+          "type": "invoice",
+          "signatureDate": "2021-06-28",
+          "signatureOwner": "ОАО 'Кленовый лист'",
+          "totalSum": "300000"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "changes": [
+        {
+          "updateDate": "2021-11-13",
+          "id": "3",
+          "name": "Счет фактуры №3",
+          "owner": "ОАО 'Кленовый лист'",
+          "creationDate": "2021-07-23",
+          "direction": "out",
+          "type": "invoice",
+          "signatureDate": "2021-07-27",
+          "signatureOwner": "ОАО 'Кленовый лист'",
+          "totalSum": "800000"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "changes": [
+        {
+          "updateDate": "2021-11-13",
+          "id": "4",
+          "name": "Счет фактуры №4",
+          "owner": "ОАО 'Кленовый лист'",
+          "creationDate": "2021-08-23",
+          "direction": "in",
+          "type": "invoice",
+          "signatureDate": "2021-08-27",
+          "signatureOwner": "ОАО 'Кленовый лист'",
+          "totalSum": "200000"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "changes": [
+        {
+          "updateDate": "2021-11-13",
+          "id": "5",
+          "name": "Счет фактуры №2",
+          "owner": "ОАО 'Кленовый лист'",
+          "creationDate": "2021-06-24",
+          "direction": "in",
+          "type": "invoice",
+          "signatureDate": "2021-06-28",
+          "signatureOwner": "ОАО 'Кленовый лист'",
+          "totalSum": "300000"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "changes": [
+        {
+          "updateDate": "2021-11-13",
+          "id": "6",
+          "name": "Счет фактуры №3",
+          "owner": "ОАО 'Кленовый лист'",
+          "creationDate": "2021-07-23",
+          "direction": "out",
+          "type": "invoice",
+          "signatureDate": "2021-07-27",
+          "signatureOwner": "ОАО 'Кленовый лист'",
+          "totalSum": "800000"
+        }
+      ]
+    },
+    {
+      "id": "Asmji9j",
+      "changes": [
+        {
+          "name": "kjhgfds11111232323",
+          "owner": "jhgfdsa",
+          "creationDate": "2021-11-09",
+          "direction": "in",
+          "type": "invoce",
+          "signatureDate": "2021-11-10",
+          "signatureOwner": "kjhgfds",
+          "totalSum": "98765432",
+          "id": "Asmji9j"
+        },
+        {
+          "name": "kjhgfds11111",
+          "owner": "jhgfdsa",
+          "creationDate": "2021-11-09",
+          "direction": "in",
+          "type": "invoce",
+          "signatureDate": "2021-11-10",
+          "signatureOwner": "kjhgfds",
+          "totalSum": "98765432",
+          "id": "Asmji9j"
+        },
+        {
+          "updateDate": "2021-11-15",
+          "name": "kjhgfds",
+          "owner": "jhgfdsa",
+          "creationDate": "2021-11-09",
+          "direction": "in",
+          "type": "invoce",
+          "signatureDate": "2021-11-10",
+          "signatureOwner": "kjhgfds",
+          "totalSum": "98765432",
+          "id": "Asmji9j"
+        }
+      ]
+    },
+    {
+      "id": "UrS6Lqj",
+      "changes": [
+        {
+          "updateDate": "2021-11-15",
+          "name": "test 4",
+          "owner": "test 1",
+          "creationDate": "2021-11-09",
+          "direction": "out",
+          "type": "act",
+          "signatureDate": "2021-11-25",
+          "signatureOwner": "test 1",
+          "totalSum": "1233456",
+          "id": "UrS6Lqj"
+        },
+        {
+          "name": "test 3",
+          "owner": "test 1",
+          "creationDate": "2021-11-09",
+          "direction": "out",
+          "type": "act",
+          "signatureDate": "2021-11-25",
+          "signatureOwner": "test 1",
+          "totalSum": "1233456",
+          "id": "UrS6Lqj"
+        },
+        {
+          "name": "test 2",
+          "owner": "test 1",
+          "creationDate": "2021-11-09",
+          "direction": "out",
+          "type": "act",
+          "signatureDate": "2021-11-25",
+          "signatureOwner": "test 1",
+          "totalSum": "1233456",
+          "id": "UrS6Lqj"
+        },
+        {
+          "updateDate": "2021-11-15",
+          "name": "test 1 ",
+          "owner": "test 1",
+          "creationDate": "2021-11-09",
+          "direction": "out",
+          "type": "act",
+          "signatureDate": "2021-11-25",
+          "signatureOwner": "test 1",
+          "totalSum": "1233456",
+          "id": "UrS6Lqj"
+        }
+      ]
+    },
+    {
+      "id": "GjUzBvG",
+      "changes": [
+        {
+          "updateDate": "2021-11-18",
+          "name": "test",
+          "owner": "test",
+          "creationDate": "2021-11-23",
+          "direction": "out",
+          "type": "invoce",
+          "signatureDate": "2021-11-23",
+          "signatureOwner": "t5t",
+          "totalSum": "56778",
+          "id": "GjUzBvG"
+        }
+      ]
+    },
+    {
+      "id": "yPdq5tg",
+      "changes": [
+        {
+          "updateDate": "2021-11-18",
+          "name": "test 45",
+          "owner": "yhyhy",
+          "creationDate": "2021-11-02",
+          "direction": "out",
+          "type": "invoce",
+          "signatureDate": "2021-12-04",
+          "signatureOwner": "yhyhy",
+          "totalSum": "98765",
+          "id": "yPdq5tg"
+        }
+      ]
+    }
+  ],
+  "pdfs": [
+    {
+      "id": "2",
+      "docs": [
+        {
+          "creationDate": "2021-08-23",
+          "name": "some_doc.pdf",
+          "link": "./src/pdfs/poderys2017.pdf"
+        }
+      ]
+    }
+  ]
+}
