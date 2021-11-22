@@ -111,6 +111,7 @@
                 :disabled = "$route.query.disabled == 'true'">Create</el-button>
             </div>
         </div>
+        <Select :options="['in', 'out']" @current-select-value = 'onSelectValue' :disabled="false"/>
     </div>
 </template>
 
@@ -119,8 +120,13 @@ import { Component, Vue } from 'vue-property-decorator';
 import DocumentModel from '../models/document';
 import { getById, createDocument, updateDocument } from '../api/document';
 import { createHistory, updateHistory } from '../api/history';
+import Select from './Select.vue';
 
-@Component
+@Component({
+  components: {
+    Select,
+  },
+})
 export default class DocumnetInputForm extends Vue {
   data: DocumentModel.Document = {
     id: this.$route.params.id,
@@ -184,6 +190,10 @@ export default class DocumnetInputForm extends Vue {
       };
       createHistory(history);
     });
+  }
+
+  onSelectValue(data:{newVal:string}) {
+    console.log('Selected option is ', data.newVal);
   }
 
   mounted() {

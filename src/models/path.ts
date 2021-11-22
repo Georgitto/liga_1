@@ -1,6 +1,6 @@
 declare namespace PathModel {
     interface Path {
-        name: string,
+        name?: string,
         path: string,
     }
 }

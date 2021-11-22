@@ -9,8 +9,12 @@
 </template>
 
 <script lang="ts">
-import { Component, Vue, Watch } from 'vue-property-decorator';
+import {
+  Component, Vue, Watch, Prop,
+} from 'vue-property-decorator';
+import DocumentModel from '../models/document';
 import PathModel from '../models/path';
+import { getById } from '../api/document';
 
 @Component
 export default class Breadcrumb extends Vue {
@@ -22,7 +26,7 @@ export default class Breadcrumb extends Vue {
   }
 
   splitPath(path: string):PathModel.Path[] {
-    const pathArray: PathModel.Path[] = [];
+    let pathArray: PathModel.Path[] = [];
     if (path === '/') {
       return [
         {
@@ -31,6 +35,7 @@ export default class Breadcrumb extends Vue {
         },
       ];
     }
+
     path.split('/').forEach((el: string, index: number) => {
       const newPath:string[] = [];
       let arraySize;
@@ -42,12 +47,35 @@ export default class Breadcrumb extends Vue {
         path: newPath.join('/') === '' ? '/' : newPath.join('/'),
       });
     });
+
+    pathArray = pathArray.map((el:PathModel.Path, index) => {
+      const includes = el.path.match(/\/documents\/[A-Za-z0-9]+/g);
+      const result: PathModel.Path = {
+        name: el.name,
+        path: el.path,
+      };
+
+      if (includes !== null) {
+        this.getDocName(includes[0].split('/')[2]).then((res: string | undefined) => {
+          result.name = res;
+        });
+        console.log(index);
+      }
+
+      return result;
+    });
     return pathArray;
   }
 
+  async getDocName(id: string): Promise<string | undefined> {
+    const { name } = await getById(id);
+    return name;
+  }
+
+  @Prop(String) readonly docName: string | undefined
+
   mounted() {
     this.breadcrumbData = this.splitPath(this.$route.path);
-    console.log(this.breadcrumbData);
   }
 }
 </script>
